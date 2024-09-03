@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        header,footer{
+            background-color: grey;
+            text-align: center;
+            color: #fff;
+            padding: 10px;
+        }
+        main{
+            background-attachment: fixed;
+            background-color: aliceblue;
+            padding: 10px;
+        }
+        table{
+            table{
+            width: 100%;
+            border-collapse: collapse;
+            }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            }
+        tfoot{
+            background-color: rgba(128, 128, 128, 0.507);
+            font-weight: bold;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Primera página Web</h1>
+    </header>
+    <main>
+        <!-- 1)ESTRUCTURA BÁSICA -->
+        <div>
+            <h2>1.Estructura básica del documento HTML</h2>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración DOCTYPE, etiquetas de metadatos y un título</p>
+        </div>
+
+        <!-- 2)Encabezados y propiedades del texto -->
+        <div>
+            <h2>2.Encabezados y propiedades del texto</h2>  
+        </div>
+
+        <div>
+            <h1>Esto es un texto en un encabezado h1</h1>
+            <h2>Esto es un texto en un encabezado h2</h2>
+            <h3>Esto es un texto en un encabezado h3</h3>
+            <h4>Esto es un texto en un encabezado h4</h4>
+            <h5>Esto es un texto en un encabezado h5</h5>
+            <h6>Esto es un texto en un encabezado h6</h6>
+        </div>
+
+        <div>
+            <p><b>Este texto está en negrita</b></p>
+            <p><em>Este texto está en cursiva</em></p>
+            <p><u>Este texto está subrayado</u></p>
+        </div>
+
+        <!-- 3)Divisiones y agrupación de contenido -->
+        <div>
+            <h2>3.Divisiones y agrupación de contenido</h2>  
+        </div>
+        <div>
+            <section>
+                <h3>Sección 1</h3>
+                <p>Sección 1 agrupada en un div</p>
+            </section>
+        </div>
+        <div>
+            <section>
+                <h3>Sección 2</h3>
+                <p>Sección 2 agrupada en un div</p>
+            </section>
+        </div>
+
+        <div>
+            <article>
+                <h3>Artículo 1</h3>
+                <p>Artículo 1 agrupado en un div</p>
+            </article>
+        </div>
+        <div>
+            <article>
+                <h3>Artículo 2</h3>
+                <p>Artículo 2 agrupado en un div</p>
+            </article>
+        </div>
+        <!-- 4)Enlaces y listas -->
+        <div>
+            <h2>4.Enlaces y listas</h2> 
+        </div>
+        <div>
+            <nav>
+                <p>Visita nuestro <a href="http://127.0.0.1:5500/web.html">sitio web</a> para más información</p>
+                
+                <h4>Enlaces internos:</h4>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/web.html/estructura">Ir a estructura</a></li>
+                    <li><a href="http://127.0.0.1:5500/web.html/multimedia">Ir a multimedia</a></li>
+                    <li><a href="http://127.0.0.1:5500/web.html/formulario">Ir a formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h4>Lista desordenada:</h4>
+            <ul>
+                <li>Primer ítem de una lista desordenada</li>
+                <li>Segundo ítem de una lista desordenada</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Lista ordenada:</h4>
+            <ol>
+                <li>Primer ítem de una lista ordenada</li>
+                <li>Segundo ítem de una lista ordenada</li>
+            </ol>
+        </div>
+        <!-- 5)Elementos multimedia -->
+        <div>
+            <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" 
+            width="200px"height="200px" alt="Imagen de ejemplo">
+
+            <video 
+                src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" 
+                controls
+                width="400px" height="400px">
+            </video>
+            
+            <audio 
+                src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"
+                controls>
+            </audio>
+        </div>
+        <!-- 6)Tablas -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- 7)Formularios -->
+        <form>
+            <div>
+                <label>Nombre</label>
+                <input type="text" placeholder="Su nombre aquí">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="Su email aquí">
+            </div>
+
+            <div>
+                <label>Mensaje</label>
+                <textarea placeholder="Añada información extra"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>2024 Trabajo Práctico de HTML</p>
+    </footer>
+</body>
+</html>
