@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div class="domExerciseContainer">
+      <h2>7.Introducción al DOM</h2>
+      
+      <p class="parrafo">Este es el primer párrafo</p>
+      <p class="parrafo">Este es el segundo párrafo</p>
+      <p class="parrafo">Este es el tercer párrafo</p>
+
+      <button id="botonId">Cambiar color a azul</button>
+    </div>
+
+    <form>
+      <h2>Introducción al DOM: Ejercicio formulario con alerta</h2>
+
+      <label for="campoTexto">Ingrese un texto: </label>
+      <input id="textoIngresado" type="text">
+
+      <button id="botonAlerta">Mostrar Alerta</button>
+    </form>
+
+    <h2>Eventos en DOM: Ejercicio lista elementos</h2>
+    <div class="listaContainer">
+        <ul>
+          <li class="element1" id="idEl1">Elemento 1</li><br>
+          <li class="element2" id="idEl2">Elemento 2</li><br>
+          <li class="element3" id="idEl3">Elemento 3</li><br>
+          <li class="element4" id="idEl4">Elemento 4</li><br>
+        </ul>
+    </div>
+
+    <div class="habilitacionContainer">
+        <h2>Eventos en DOM: Campo de texto y botones</h2>
+
+        <label for="campoTexto2"></label>
+        <input id="inputId" type="text" placeholder="Ingrese un texto">
+
+        <button id="disableButton">Deshabilitar campo</button>
+        <button id="ableButton">Habilitar campo</button>
+    </div>
+
+    <form>
+      <label for="emailId"></label>
+      <input type="email" id="emailId" placeholder="Ingrese su email">
+      <button type="button" id="botonGuardado">Guardar correo</button>
+      <div id="mostrarCorreo"></div><br>
+      <button type="button" id="botonEliminar">Eliminar correo guardado</button><br>
+      <div id="mensajeEliminado"></div>
+    </form>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
