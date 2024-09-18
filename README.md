@@ -9,3 +9,5 @@ Trabajos Prácticos subidos hasta el momento:
 -TP2: CSS
 
 -TP3: JavaScript
+
+-TP Integrador: HTML, CSS, JS
