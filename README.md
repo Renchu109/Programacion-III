@@ -11,3 +11,5 @@ Trabajos Prácticos subidos hasta el momento:
 -TP3: JavaScript
 
 -TP Integrador: HTML, CSS, JS
+
+-TP4: TypeScript
