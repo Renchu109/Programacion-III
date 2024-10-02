@@ -1,0 +1,33 @@
+Apuntes 17/9/24
+
+//Crear proyecto
+1-Comando npm - crear proyecto
+2-Elegir React como framework
+3-Elegir typescript
+4-code . --> abre el de vsc
+5-comando npm install
+6-comando npm run build
+7-comando rpm run dev
+
+//package.json
+MUY IMPORTANTE LEER SIEMPRE ESTE ARCHIVO
+build:Como se enpaqueta la aplicacion --> npm run build: compila ts y empaqueta la app
+De vez en cuando hacer run build para optimizar
+dev:Levantar proyecto YA NO ES NECESARIO live.server
+Quitar circunflexo (^), para evitar que se actualice a la última version y evitar errores
+
+//assets:Limpiar
+Eliminar todo menos main.tsx y app.tsx
+
+//Extra
+etiquetas vacias <> y </>: tiene diferentes propiedades
+.map --> itera y devuelve un arreglo --> propiedad de arreglos
+
+//Componentes: CSS, ts, etc
+1-Crear carpeta dentro de src llamada "components"
+2-Crear otra carpeta dentro con el nombre que elijamos
+3-Crear archivo tsx
+4-Crear archivo css
+5-Importar css en el tsx
+
+
