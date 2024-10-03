@@ -14,8 +14,10 @@ Trabajos Prácticos subidos hasta el momento:
 
 -TP4: TypeScript
 
--TP5: -React (Videos)
+-TPs React:
+ 
+  -React (Videos)
 
-      -React Redux (HeroesApp)
+  -React Redux (HeroesApp)
 
-      -React Redux (GifApp)
+  -React Redux (GifApp)
